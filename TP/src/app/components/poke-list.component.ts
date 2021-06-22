@@ -6,10 +6,12 @@ import { PokeAPIService } from '../poke-api.service';
 @Component({
   selector: 'app-poke-list',
   template: `
-    <app-poke-card 
-      *ngFor="let pokemon of pokemons" 
-      [pokemon]="pokemon"
-    ></app-poke-card>
+    <app-poke-card
+      *ngFor="let pokemon of pokemons"
+      [pokemon]="pokemon">
+      <!--<button (click)="previousPage(this.apiResult.previous)">previous</button>
+      <button (click)="nextPage(this.apiResult.next)">Suivant</button>-->
+    </app-poke-card>
   `,
   styles: [`
     :host {
