@@ -1,0 +1,7 @@
+<br><br>
+<ul *ngIf="list" [ngStyle]="{'display' : isVisible ? 'inherit' : 'none'}">
+  <li *ngFor="let item of list">{{ item }}</li>
+</ul>
+<button (click)="toggleIsVisible()">
+  {{ isVisible ? "CACHER" : "VOIR" }}
+</button>
