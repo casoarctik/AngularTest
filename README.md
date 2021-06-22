@@ -8,8 +8,8 @@ Une fois votre devoir terminer, envoyer le moi par mail à l'adresse : ange.pica
 
 ## Informations
 
-Nom:   
-Prenom:  
+Nom: BEAUMONT
+Prenom: Colin
 
 ## Question ouvertes
 
@@ -18,37 +18,37 @@ Merci de répondre avec vos mots, même s'ils sont inexactes, je veux voir que v
 ### Qu'est qu'Angular et quel est son intérêt ?
 
 ```
-Votre réponse
+Angular est un framework MVC TypeScript (amélioration JavaScript) créé par Google, il est utilisé pour les applications web 
 ```
 
 ### Qu'est-ce-qu'un composant
 
 ```
-Votre réponse
+C'est une classe qui permet de découper sa page web plus facilement, la page en elle même est un composant, elle peut acceuilir plusieurs autres petits composant comme une barre de navigation, un bloc de contenu principale, une sidebar...chaque composant est ensuite représenté dans du html par une balise personalisée qui permet d'être dupliqué ou placé ou l'on souhaite
 ```
 
 ### Comment est découper un composant dans Angular ?
 
 ```
-Votre réponse
+C'est une classe disposant d'attributs, de fonctions, de constructeurs parfois ainsi que 2 templates HTML et CSS. 
 ```
 
 ### Pourquoi vaut-il mieux faire de petit composant ?
 
 ```
-Votre réponse
+Pour eviter de faire des composants trop généraux, plus difficile à modifier. De même que si l'on code tout sur le composant de la page (le principal) on perd l'interet d'angular et la faculté d'utiliser les balises personalisées pour organiser son HTML facilement et proprement.
 ```
 
 ### A quoi sert un service ?
 
 ```
-Votre réponse
+Il permet de récupérer des données ou d'échanger entre les composants pour qu'ils communiquent entre eux.
 ```
 
 ### Qu'est-ce-qu'un observable, et quel est son intérêt ?
 
 ```
-Votre réponse
+C'est un Objet qui permet de traiter efficacement les données, il peut analyser, modifier et maintenir les données dans un système basé sur les événements.
 ```
 
 ## Exercice 1
